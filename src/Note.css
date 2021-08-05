@@ -1,0 +1,35 @@
+.note {
+  display: flex;
+  align-items: center;
+  margin: 2% 1% 0 1%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.note-container {
+  padding: 10px 15px;
+  margin-bottom: 1%;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 7px;
+  /* position: relative; */
+}
+.note-container h2 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.note-container p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: black;
+  margin: 5px 0;
+}
+.deleteIcon {
+  color: gold;
+  cursor: pointer;
+  position: relative;
+  top: 27px;
+
+  background-color: white;
+}
+.deleteLogo {
+  color: rgb(255, 196, 0);
+}

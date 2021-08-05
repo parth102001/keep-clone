@@ -1,0 +1,24 @@
+.createNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  box-shadow: 0 3px 9px 0 gray;
+  padding: 1%;
+  border-radius: 4px;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+form input,
+textarea {
+  font-size: medium;
+  padding: 10px 10px;
+  outline: none;
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+.addBtn {
+  color: gold;
+}
